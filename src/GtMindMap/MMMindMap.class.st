@@ -3,7 +3,8 @@ Class {
 	#superclass : #Object,
 	#instVars : [
 		'title',
-		'creator'
+		'creator',
+		'nodes'
 	],
 	#category : #'GtMindMap-Model'
 }
@@ -22,6 +23,11 @@ MMMindMap >> creator: aSession [
 ]
 
 { #category : #'as yet unclassified' }
+MMMindMap >> initialize [
+	nodes := OrderedCollection new
+]
+
+{ #category : #'as yet unclassified' }
 MMMindMap >> mindmapView: aView [
 	<gtView>
 		^ aView explicit
@@ -34,7 +40,7 @@ MMMindMap >> mindmapView: aView [
 
 { #category : #'as yet unclassified' }
 MMMindMap >> nodes [
-	^#(1 2)
+	^nodes
 ]
 
 { #category : #'as yet unclassified' }

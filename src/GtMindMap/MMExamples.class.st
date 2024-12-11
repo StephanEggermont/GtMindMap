@@ -5,6 +5,15 @@ Class {
 }
 
 { #category : #accessing }
+MMExamples class >> otherNode [
+	<Example>
+	|node|
+	node := MMNode new.
+	self assert: node parent isNil.
+	^node
+]
+
+{ #category : #accessing }
 MMExamples class >> rootNode [
 	<Example>
 	|node|

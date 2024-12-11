@@ -137,14 +137,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-04T14:39:23.885167+01:00"
+						"dateAndTimeString" : "2024-12-11T09:11:52.137419+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "OU1lpNPkDQCfqlBSCcl0xw=="
 				},
-				"code" : "root := MMExamples rootNode"
+				"code" : "root := MMExamples rootNode.\rotherNode := MMExamples otherNode.\rotherNode parent: root.\rmindmap nodes add: root.\rmindmap nodes add: otherNode.\r\r"
 			}
 		]
 	},

@@ -26,3 +26,8 @@ MMNode >> nodeView: aView [
 MMNode >> parent [
 	^parent
 ]
+
+{ #category : #accessing }
+MMNode >> parent: aNode [
+	parent := aNode
+]

@@ -22,7 +22,7 @@ MMRootNodeView >> initialize [
 			36@0. 48@0 . 48@36 . 84@36.
 			84@48 . 48@48 . 48@84 . 36@84.
 			36@48 . 0@48 . 0@36. 36@36
-		} collect: [ :aPoint | aPoint / 6.0])) asElement.
+		} collect: [ :aPoint | aPoint / 3.0])) asElement.
 
 	icon background: Color white.
 	icon border: BlBorder empty.

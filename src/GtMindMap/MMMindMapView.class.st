@@ -11,7 +11,8 @@ Class {
 MMMindMapView >> initialize [
 	super initialize.
 	self size: 600@400.
-	self border: Color black
+	self border: Color black.
+	self layout: BlLinearLayout horizontal.
 ]
 
 { #category : #accessing }
@@ -21,5 +22,8 @@ MMMindMapView >> mindmap [
 
 { #category : #accessing }
 MMMindMapView >> mindmap: anObject [
-	mindmap := anObject
+	mindmap := anObject.
+	mindmap nodes do: [:node |
+		self addChild: node view.
+		]
 ]

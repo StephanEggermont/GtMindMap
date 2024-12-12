@@ -31,3 +31,8 @@ MMNode >> parent [
 MMNode >> parent: aNode [
 	parent := aNode
 ]
+
+{ #category : #'as yet unclassified' }
+MMNode >> view [
+	^MMRootNodeView new node: self; yourself
+]

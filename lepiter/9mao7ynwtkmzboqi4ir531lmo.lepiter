@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-04T14:37:18.482933+01:00"
+						"dateAndTimeString" : "2024-12-21T15:23:41.869414+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,20 +29,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-04T14:37:53.427801+01:00"
+						"dateAndTimeString" : "2024-12-21T15:25:15.933833+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "C34SntPkDQCd0+2GCcl0xw=="
+					"uidString" : "lvlGPyrmDQCCCF7GAnl7og=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Examples]]"
+				"string" : "A user has a username that is used to identity them, an avatar that can be a photo or a colored background with first letters of first and last name"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-04T14:37:05.917021+01:00"
+						"dateAndTimeString" : "2024-12-21T15:25:35.233493+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-04T14:37:05.917021+01:00"
+						"dateAndTimeString" : "2024-12-21T15:29:02.76311+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "cMBSndPkDQCd0gL0Ccl0xw=="
+					"uidString" : "fcIIRirmDQCFwQ3rAnl7og=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "user := MMUser new.\rregisterView := user registerView"
 			}
 		]
 	},
@@ -88,7 +85,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-12-04T14:37:05.896922+01:00"
+			"dateAndTimeString" : "2024-12-21T15:23:41.83323+01:00"
 		}
 	},
 	"editEmail" : {
@@ -99,15 +96,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-12-04T14:37:18.480783+01:00"
+			"dateAndTimeString" : "2024-12-21T15:23:41.83323+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Mind maps"
+		"title" : "Working with multiple users"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "4c71529d-d3e4-0d00-9dd1-a7f509c974c7"
+		"uuid" : "c06a463f-2ae6-0d00-8207-4a9c02797ba2"
 	}
 }

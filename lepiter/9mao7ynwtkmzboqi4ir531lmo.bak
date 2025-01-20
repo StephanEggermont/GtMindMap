@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-21T15:25:15.933833+01:00"
+						"dateAndTimeString" : "2025-01-12T12:31:23.572901+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "A user has a username that is used to identity them, an avatar that can be a photo or a colored background with first letters of first and last name"
+				"string" : "A user has a  a username that is used to identity them, an avatar that can be a photo or a colored background with first letters of first and last name"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -66,14 +66,82 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-21T15:28:58.55583+01:00"
+						"dateAndTimeString" : "2024-12-21T15:29:02.76311+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "fcIIRirmDQCFwQ3rAnl7og=="
 				},
-				"code" : "user := MMUser new\rregisterView := user registerView"
+				"code" : "user := MMUser new.\rregisterView := user registerView"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-01-12T12:28:36.033195+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-01-12T12:31:18.37629+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "PNmWXeLnDQClsmSfDENopg=="
+				},
+				"code" : "textToCheck := (thisSnippet parent children select: [:each | each class = LeTextSnippet]) first text asString"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-01-12T12:31:34.94665+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-01-12T14:04:50.641528+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2+BAaOLnDQCoEYZFDENopg=="
+				},
+				"code" : "client := ZnClient new.\rclient url: 'http://localhost:1234/v1/chat/completions'.\rclient entity: (ZnStringEntity text:'{ \n    \"model\": \"bartowski/EVA-LLaMA-3.33-70B-v0.0-GGUF\",\n    \"messages\": [ \n      { \"role\": \"system\", \"content\": \"You are a rest service providing json results. You correct style and spelling in the user provided input. Provide only the corrected text in a field named corrected, then a field named explanations with the individual corrections\" },\n      { \"role\": \"user\", \"content\": \"', textToCheck, '\" }\n    ], \n    \"temperature\": 0.7, \n    \"max_tokens\": -1,\n    \"stream\": false\n}').\rclient contentType: 'application/json'.\rclient timeout: 180.\rclient post.\r(STON fromString:(((((STON fromString: ( client response contents)) at: #choices) first) at: #message) at: #content)) at: #explanations"
 			}
 		]
 	},

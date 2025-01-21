@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-01-12T12:31:23.572901+01:00"
+						"dateAndTimeString" : "2025-01-21T14:29:53.225493+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "A user has a  a username that is used to identity them, an avatar that can be a photo or a colored background with first letters of first and last name"
+				"string" : "A user has a username that is used to identify them, an avatar that can be a photo or a colored background with first letter of their first and of their last name"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -134,14 +134,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-01-12T14:04:50.641528+01:00"
+						"dateAndTimeString" : "2025-01-12T14:27:51.832494+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "2+BAaOLnDQCoEYZFDENopg=="
 				},
-				"code" : "client := ZnClient new.\rclient url: 'http://localhost:1234/v1/chat/completions'.\rclient entity: (ZnStringEntity text:'{ \n    \"model\": \"bartowski/EVA-LLaMA-3.33-70B-v0.0-GGUF\",\n    \"messages\": [ \n      { \"role\": \"system\", \"content\": \"You are a rest service providing json results. You correct style and spelling in the user provided input. Provide only the corrected text in a field named corrected, then a field named explanations with the individual corrections\" },\n      { \"role\": \"user\", \"content\": \"', textToCheck, '\" }\n    ], \n    \"temperature\": 0.7, \n    \"max_tokens\": -1,\n    \"stream\": false\n}').\rclient contentType: 'application/json'.\rclient timeout: 180.\rclient post.\r(STON fromString:(((((STON fromString: ( client response contents)) at: #choices) first) at: #message) at: #content)) at: #explanations"
+				"code" : "client := ZnClient new.\rclient url: 'http://localhost:1234/v1/chat/completions'.\rclient entity: (ZnStringEntity text:'{ \n    \"model\": \"bartowski/EVA-LLaMA-3.33-70B-v0.0-GGUF\",\n    \"messages\": [ \n      { \"role\": \"system\", \"content\": \"You are a rest service providing json results. You correct style and spelling in the user provided input. Provide only the corrected text in a field named corrected, then a field named explanations with the individual corrections\" },\n      { \"role\": \"user\", \"content\": \"', textToCheck, '\" }\n    ], \n    \"temperature\": 0.7, \n    \"max_tokens\": -1,\n    \"stream\": false\n}').\rclient contentType: 'application/json'.\rclient timeout: 180.\rclient post.\rclient response contents"
 			}
 		]
 	},

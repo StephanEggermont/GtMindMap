@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-04T14:37:18.482933+01:00"
+						"dateAndTimeString" : "2025-01-21T14:35:45.59973+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-04T14:37:53.427801+01:00"
+						"dateAndTimeString" : "2025-01-21T14:37:43.998745+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "C34SntPkDQCd0+2GCcl0xw=="
+					"uidString" : "JDXrMJnoDQCA23atDENopg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Examples]]"
+				"string" : "Let's select a snippet of text we want to spell and grammar check. Given the hallucinations LLMS are prone to, one paragraph at a time is about the right size. That allows us to carefully review the proposed improvements."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-01-21T14:32:27.59169+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-01-21T14:35:09.795005+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Hc0dJZnoDQC+tDZEDENopg=="
+				},
+				"code" : "textToCheck := ((thisSnippet database pages detect: [:page | page title beginsWith: 'Working with']) children select: [:each | each class = LeTextSnippet]) first text asString"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-21T15:23:28.756883+01:00"
+						"dateAndTimeString" : "2025-01-21T14:37:51.362693+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,20 +100,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-21T15:23:39.191604+01:00"
+						"dateAndTimeString" : "2025-01-21T14:39:27.437711+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "hOB+PirmDQCBaOuZAnl7og=="
+					"uidString" : "8C5qOJnoDQCFuwokDENopg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Working with multiple users]]"
+				"string" : "In this case, LMStudio on the machine is running a REST service on port 1234. The chosen model is large and slow, so a longer time-out is needed"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -92,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-01-21T14:30:21.906026+01:00"
+						"dateAndTimeString" : "2025-01-21T14:35:39.457493+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,54 +137,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-01-21T14:30:26.873962+01:00"
+						"dateAndTimeString" : "2025-01-21T14:35:40.670887+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "twSgHZnoDQC9FTfjDENopg=="
+					"uidString" : "4niNMJnoDQCA0m2cDENopg=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[A distraction, "
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-04T14:37:05.917021+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-12-04T14:37:05.917021+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "cMBSndPkDQCd0gL0Ccl0xw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "client := ZnClient new.\rclient url: 'http://localhost:1234/v1/chat/completions'.\rclient entity: (ZnStringEntity text:'{ \n    \"model\": \"bartowski/EVA-LLaMA-3.33-70B-v0.0-GGUF\",\n    \"messages\": [ \n      { \"role\": \"system\", \"content\": \"You are a rest service providing json results. You correct style and spelling in the user provided input. Provide only the corrected text in a field named corrected, then a field named explanations with the individual corrections\" },\n      { \"role\": \"user\", \"content\": \"', textToCheck, '\" }\n    ], \n    \"temperature\": 0.7, \n    \"max_tokens\": -1,\n    \"stream\": false\n}').\rclient contentType: 'application/json'.\rclient timeout: 180.\rclient post.\rclient response contents"
 			}
 		]
 	},
@@ -162,7 +156,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-12-04T14:37:05.896922+01:00"
+			"dateAndTimeString" : "2025-01-21T14:30:55.377157+01:00"
 		}
 	},
 	"editEmail" : {
@@ -173,15 +167,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-12-04T14:37:18.480783+01:00"
+			"dateAndTimeString" : "2025-01-21T14:30:55.377157+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Mind maps"
+		"title" : "A distraction, using a local LLM to help with documentation improvements"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "4c71529d-d3e4-0d00-9dd1-a7f509c974c7"
+		"uuid" : "1bc29e1f-99e8-0d00-be9a-a6fd0c4368a6"
 	}
 }
